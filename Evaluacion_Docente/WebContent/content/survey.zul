@@ -1,0 +1,12 @@
+<div hflex="1" vflex="1" >
+    <vlayout hflex="1" vflex="1" >
+    	<div height="30px"></div>
+    	
+    	<div id="divCuestionario">
+    	
+    		<include src="/content/question.zul"></include>
+    		<include src="/content/question.zul"></include>
+        </div>
+                
+    </vlayout>
+</div>

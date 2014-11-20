@@ -1,0 +1,31 @@
+/* Hoja de estilo para la ventana del login */
+div.form {
+	text-align: left;
+	color: black;
+	font-style: bold;
+	font-size: 15px;
+	background: #532821;
+	width: 300px;
+	border: normal;
+	margin-top: 230px;
+/* 	position: center; */
+	margin-left: 400px;
+	color: white;
+}
+
+div.loginGrid {
+	border: none;
+/* 	font-style: italic; */
+	background: white;
+	font-family: fantasy;
+}
+div.colores
+{
+	color: white;
+	background: #532821;
+	font-size:12px;
+}
+
+td.loginCenter {
+	text-align: center;
+}

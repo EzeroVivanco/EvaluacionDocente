@@ -1,0 +1,12 @@
+<?page title="Universidad Politécnica de Quintana Roo - Evaluación Docente" contentType="text/html;charset=UTF-8"?>
+<zk>
+	<borderlayout hflex="1" vflex="1">
+		<north style="background:#532821" height="60px" border="none" >
+			<include src="header.zul"/>
+	    </north>
+        <center id="mainContent" autoscroll="true">
+        	<include src="/content/survey.zul"/>
+        </center>
+        
+	</borderlayout>
+</zk>

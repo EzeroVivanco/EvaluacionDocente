@@ -1,0 +1,29 @@
+<vlayout id="objPregunta" hflex="1" vflex="1">
+
+	<label id="lblPregunta" style="font-size:15px" pre="true" sclass="contenido" value="1.- Ésta es una pregunta redactada únicamente para fines de prueba y evaluación." />
+
+	<!--<zscript><![CDATA[
+		lblPregunta.value = "1.- Ésta es una pregunta redactada únicamente para fines de prueba y evaluación."; 
+		]]></zscript>-->
+
+	<hlayout id="lstMaestros" hflex="1" vflex="1">
+		<include id="Teacher1" src="content/teacher.zul" />
+		<include id="Teacher2" src="content/teacher.zul" />
+		<include id="Teacher3" src="content/teacher.zul" />
+		<include id="Teacher4" src="content/teacher.zul" />
+		<include id="Teacher5" src="content/teacher.zul" />
+		<include id="Teacher6" src="content/teacher.zul" />
+		<include id="Teacher7" src="content/teacher.zul" />
+	</hlayout>
+
+	<hlayout id="lstCalif">
+		<include id="Calif1" src="content/calif.zul" />
+		<include id="Calif2" src="content/calif.zul" />
+		<include id="Calif3" src="content/calif.zul" />
+		<include id="Calif4" src="content/calif.zul" />
+		<include id="Calif5" src="content/calif.zul" />
+		<include id="Calif6" src="content/calif.zul" />
+		<include id="Calif7" src="content/calif.zul" />
+	</hlayout>
+
+</vlayout>

@@ -1,0 +1,8 @@
+<vbox id="maestro1" style="border:1px solid #b3b3b3;" align="center">
+	<div width="200px">
+		<label id="lblMateria1" style="font-size:12px" pre="true" sclass="contenido" value="CAS - Calidad de Software"/>
+	</div>
+	<div width="200px">
+		<label id="lblMaestro1" style="font-size:10px" pre="true" sclass="contenido" value="Mariano Xiu Chan"/>
+	</div>
+</vbox>

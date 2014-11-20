@@ -1,0 +1,30 @@
+<?page title="Login" contentType="text/html;charset=UTF-8"?>
+<zk>
+	<style src="/Css/CustomizeWindow.css" />
+	<window title="Login" id="component" sclass="form" closable="true"
+		border="normal" action="show: slideDown;hide: slideUp" apply="encuestaUpqroo.LoginController">
+		<grid sclass="loginGrid">
+			<columns>
+				<column hflex="1" />
+				<column hflex="2" />
+			</columns>
+			<rows>
+				<row>
+					Usuario:
+					<textbox id="username" type="text"
+						placeholder="Escribe Usuario">
+					</textbox>
+				</row>
+				<row>
+					Contraseña:
+					<textbox id="password" type="password"
+						placeholder="Escribe Contraseña">
+					</textbox>
+				</row>
+				<row spans="2" style="text-align:center">
+					<button id="login" label="Login"></button>
+				</row>
+			</rows>
+		</grid>
+	</window>
+</zk>

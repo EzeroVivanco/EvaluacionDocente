@@ -1,0 +1,9 @@
+<hbox pack="center">
+	<div id="califMaestro1" width="200px" align="center">
+		<image src="img/star.png" width="28px" height="28px"/>
+		<image src="img/star.png" width="28px" height="28px"/>
+		<image src="img/star.png" width="28px" height="28px"/>
+		<image src="img/star.png" width="28px" height="28px"/>
+		<image src="img/star.png" width="28px" height="28px"/>
+	</div>
+</hbox>

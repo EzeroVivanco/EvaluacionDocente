@@ -1,0 +1,48 @@
+<zk>
+	<style src="Css/CustomizeWindow.css" />
+	<window title="" id="component" border="none" apply="encuestaUpqroo.HeaderController">
+
+
+		<div id="dvComponent" hflex="1" vflex="1" sclass="colores">
+			<hbox hflex="1" vflex="1" align="center">
+
+				<!-- Logotipo de la universidad -->
+				<div width="110px">
+					<a>
+						<image src="img/Mini-Logo-UP.png"
+							width="100px" height="44px" />
+					</a>
+				</div>
+
+				<!-- Título del home y ciclo escolar evaluado -->
+				<vbox align="star" pack="center">
+					<label value="Evaluacion Docente" id="lblDocente"
+						style="color:white; font-size:15px" sclass="colores" />
+					<label id="lblCiclo" value="Septiembre-Diciembre"
+						style="color:white; font-size:11px" sclass="colores" />				</vbox>
+
+				<!-- Datos del Administrador que inició sesión -->
+				<hbox hflex="1" vflex="1" align="center" pack="end">
+
+					<!-- Datos -->
+					<vbox align="end" pack="center">
+						<label id="txtStudent"
+							style="color:white; font-size:12px;background: #532821; border:none" />
+						<label id="txtClave"
+							style="color:white; font-size:8px;background: #532821;border:none" />
+					
+					</vbox>
+
+					<!-- Cerrar Sesión -->
+					<vbox width="50px" align="end">
+
+					</vbox>
+
+				</hbox>
+			</hbox>
+		</div>
+	</window>
+
+
+
+</zk>
